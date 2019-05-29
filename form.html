@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>会員登録フォーム</title>
+  </head>
+  <body>
+    <div style="font-size:14px;">会員登録フォーム</div>
+    <hr>
+    新規登録画面
+    <hr>
+      [<a href="list.php">戻る</a>]<br>
+      <form name="form1" method="post" action="list.php">
+        <p>氏:</p>
+        <input type="text" name="last_name" value="">
+        <br>
+        <p>名:</p>
+        <input type="text" name="first_name" value="">
+        <br>
+        <p>年齢:</p>
+        <input type="text" name="age" value="">
+        <br>
+        <input type="hidden" name="action" value="insert">
+        <input type="submit" value="送信">
+      </form>
+  </body>
+</html>
